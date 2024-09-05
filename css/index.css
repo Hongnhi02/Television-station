@@ -1,0 +1,177 @@
+/*Body*/
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.margin {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*header*/
+.name {
+  background: url(../image/background.png);
+  justify-content: space-between;
+  align-items: center;
+  color: #ffff;
+  border-radius: 10px 0;
+  margin-bottom: 0;
+}
+
+.login {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.menu {
+  list-style-type: none;
+  align-items: center;
+  border-bottom: 2px solid #eb7328;
+  padding: 0;
+  margin: 0;
+}
+
+ul.menu-chil {
+  list-style-type: none;
+}
+
+.menu-chil > li > a {
+  display: block;
+  text-decoration: none;
+  margin-left: 1rem;
+  color: rgb(80, 78, 78);
+  font-size: 16px;
+}
+
+.menu-chil > li > a:hover {
+  color: #eb7328;
+}
+
+.input-form {
+  margin-left: auto;
+  height: 30px;
+  margin-right: 50px;
+}
+
+/*main news*/
+.news {
+  width: 70%;
+}
+
+.new-content {
+  width: 50%;
+}
+
+.new-content a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.new-content a:hover {
+  color: #eb7328;
+}
+
+.new-img img {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.child-news {
+  width: 70%;
+  justify-content: space-between;
+}
+
+.child-new {
+  width: calc(35% - 1px); /* 30% width for each column with 10px spacing */
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.child-new img {
+  width: 100%;
+  height: 28vh;
+}
+
+.child-new a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*watch*/
+.channels {
+  align-items: center;
+  justify-content: center;
+}
+
+.watch {
+  background: url(../image/background.png);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.broadcasts {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+.broadcast {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.broadcast img {
+  width: 100%;
+  height: 70vh;
+}
+
+.slider-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.slider-dots span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #888;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.slider-dots span.active {
+  background-color: #333;
+}
+
+/*footer*/
+footer {
+  border-top: 1px solid #6e6e6e;
+  padding-top: 40px;
+}
+
+.foot {
+  color: #6e6e6e;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.menu-foot {
+  list-style-type: none;
+}

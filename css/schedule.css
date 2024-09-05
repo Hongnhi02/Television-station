@@ -1,0 +1,60 @@
+.days {
+  justify-content: center;
+  align-items: center;
+  background-color: #fa995d;
+}
+
+.day-week {
+  height: 10vh;
+  width: 15vh;
+  border-left: 2px solid #fa995d;
+  border-right: 2px solid #fa995d;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 5px;
+}
+
+.day-week:hover {
+  background-color: #da8a3f;
+}
+
+.day-week a {
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+}
+
+.day-week span {
+  display: block;
+  font-weight: bold;
+  color: white;
+}
+
+.day-week span .top {
+  font-size: 20px;
+}
+
+.day-week span .bottom {
+  font-size: 22px;
+}
+
+.list-items {
+  line-height: 2;
+}
+
+.item {
+  border-bottom: 1px solid #ccc; /* Thêm viền dưới cho mỗi item */
+  padding: 10px 20px; /* Khoảng cách giữa các mục */
+  margin: 10px;
+}
+
+.calendar-item {
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  font-weight: bold;
+  font-size: 18px;
+}

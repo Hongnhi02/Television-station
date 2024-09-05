@@ -1,0 +1,61 @@
+.channels {
+  display: flex;
+  align-items: center;
+}
+
+.channel {
+  display: flex;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+.youtb {
+  align-items: center;
+  justify-content: center;
+}
+
+.youtb-channel {
+  flex: 0 0 auto;
+  margin: 5px;
+}
+
+.youtb-channel img {
+  height: 20vh;
+}
+
+.hidden {
+  display: none;
+}
+
+#btn-prev,
+#btn-next {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#btn-prev:disabled,
+#btn-next:disabled {
+  color: #cccc; /* Màu chữ xám khi nút bị vô hiệu hóa */
+  pointer-events: none; /* Ngăn chặn sự kiện click khi nút bị vô hiệu hóa */
+}
+
+.channels button {
+  position: absolute;
+  transform: translateY(-70%);
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #333;
+  border-radius: 50%;
+}
+
+#btn-prev {
+  left: 0;
+}
+
+#btn-next {
+  right: 0;
+}

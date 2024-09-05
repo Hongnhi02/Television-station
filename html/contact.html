@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="../js/contact.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="name flex">
+            <h3 style="margin-left: 50px; ">Đài truyền hình trực tuyến Việt Nam</h3>
+            <div class="login">
+                <i class="fa-regular fa-user"></i>
+                <a href="#">Đăng nhập</a>
+            </div>
+        </div>
+        <nav>
+            <div class="menu flex">
+                <ul class="menu-chil flex">
+                    <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                    <li><a href="../html/introduce.html">Giới thiệu</a></li>
+                    <li><a href="../html/live.html">Xem trực tiếp</a></li>
+                    <li><a href="../html/program.html">Chương trình</a></li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li><a href="../html/schedule.html">Lịch phát sóng</a></li>
+                    <li><a href="../html/contact.html">Liên hệ</a></li>
+                </ul>
+                <input class="input-form" type="search" placeholder="Tìm từ khóa...." />
+            </div>
+        </nav>
+    </header>
+    <main class="flex margin" style="padding-bottom: 20px;">
+        <div class="contact-informations">
+            <div class="contact-information">
+                <h2 class="margin">ĐÀI TRUYỀN HÌNH</h2>
+                <ul class="menu-foot">
+                    <li> <i class="fa-solid fa-location-dot"></i> Địa chỉ: 156 đường số 2, phường 3, Gò Vấp,
+                        TP.HCM
+                    </li>
+                    <li> <i class="fa-solid fa-phone"></i> Điện thoại: 0348372008</li>
+                    <li> <i class="fas fa-envelope"></i> Email: 2051050320nhi@ou.edu.vn</li>
+                </ul>
+                <a class="margin" id="view-map">Xem bản đồ</a>
+            </div>
+            <div class="map" id="map">
+                <div class="map-container">
+                    <a class="close" id="close-map">X</a>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.8621002378322!2d106.67228197415929!3d10.821863489329674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175291d6abd279b%3A0x56b8f891b8855295!2zMTU2IMSQLiBT4buRIDIsIFBoxrDhu51uZyAzLCBHw7IgVuG6pXAsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1724813967125!5m2!1svi!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="informations">
+            <div class="information">
+                <p style="font-size: 16px; font-style: italic; color: #666666;">Bạn có thắc mắc:</p>
+                <div class="information-form">
+                    <form action="">
+                        <div class="row">
+                            <div class="row-left">
+                                <label style="display: block;" for="fullname">Họ và tên (*):</label>
+                                <input type="text" id="fullname" name="fullname" required>
+                            </div>
+                            <div class="row-right">
+                                <label style="display: block;" for="address">Địa chỉ:</label>
+                                <input type="text" id="address" name="address">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="row-left">
+                                <label for="email">Email (*):</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="row-right">
+                                <label for="phone">Số điện thoại:</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+
+                        <label for="subject">Tiêu đề (*): </label>
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="message">Nội dung (*):</label>
+                        <textarea name="message" id="message" required></textarea>
+                    </form>
+                    <div class="submit">
+                        <button class="btn-submit">Gửi thắc mắc</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot flex">
+            <h3>ĐÀI TRUYỀN HÌNH KỸ THUẬT SỐ</h3>
+            <ul class="menu-foot">
+                <li> <i class="fa-solid fa-location-dot"></i> Địa chỉ: 156 đường số 2, phường 3, Gò Vấp, TP.HCM
+                </li>
+                <li> <i class="fa-solid fa-phone"></i> Điện thoại: 0348372008</li>
+                <li> <i class="fas fa-envelope"></i> Email: 2051050320nhi@ou.edu.vn</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
